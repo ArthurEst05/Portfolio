@@ -1,34 +1,34 @@
 /* Título principal */
 #tit-principal {
-    color: #003f63; /* Cor do título */
+    color: #003f63; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    margin-top: 100px; /* Espaçamento superior para não ser coberto pelo cabeçalho */
-    text-align: center; /* Centraliza o título */
-    font-size: 32px; /* Tamanho do título */
+    margin-top: 100px; 
+    text-align: center; 
+    font-size: 32px; 
 }
 
-/* Estilo da imagem do dono do portfólio */
+/* imagem pessoal */
 #imgDono {
     width: 200px;
-    border-radius: 50%; /* Melhor usar 50% para garantir uma imagem redonda */
-    margin: 20px; /* Aumentei a margem para dar mais espaço ao redor da imagem */
+    border-radius: 50%;
+    margin: 20px;
 }
 
-/* Estilo da seção de informações pessoais */
+/* informações pessoais */
 #info-pessoal {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
     background-color: #a8d0e6;
-    width: 100%; /* Mudei para ocupar 100% da largura */
-    max-width: 500px; /* Definir uma largura máxima */
+    width: 100%; 
+    max-width: 500px; 
     height: 200px;
-    border-radius: 10px; /* Mudança para arredondar mais suavemente */
-    margin: 20px auto; /* Centraliza horizontalmente */
-    padding: 20px; /* Adicionei padding para dar espaço interno */
+    border-radius: 10px; 
+    margin: 20px auto; 
+    padding: 20px; 
 }
 
-/* Texto da seção de informações pessoais */
+/* Texto de informações pessoais */
 #info-text {
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinha tudo no centro horizontalmente */
+    align-items: center; 
 }
 
 /* Estilo do rodapé */
@@ -54,8 +54,8 @@ footer {
     color: white;
     padding: 20px 0;
     font-size: 14px;
-    width: 100%; /* Preencher a largura do rodapé */
-    text-align: center; /* Centraliza o texto no rodapé */
+    width: 100%;
+    text-align: center;
 }
 
 /* Container do rodapé */
@@ -93,10 +93,8 @@ footer {
     font-size: 12px;
 }
 
-footer img {
-    width: 24px;
-    height: 24px;
-    margin: 5px;
+.icon{
+    font-size: 35px;
 }
 
 /* Links e botões */
@@ -106,27 +104,27 @@ a, button {
 }
 
 #cabecalho {
-    background-color: #1e2a38; /* Cor de fundo do cabeçalho */
-    height: 80px; /* Altura do cabeçalho */
+    background-color: #1e2a38; 
+    height: 80px; 
     display: flex;
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    padding: 0; /* Remover padding lateral para garantir centralização total */
-    width: 100%; /* Preencher a largura total da tela */
-    position: fixed; /* Manter o cabeçalho fixo no topo */
-    top: 0; /* Colocar no topo da página */
-    left: 0; /* Alinhar à esquerda */
-    z-index: 1000; /* Certificar que esteja acima de outros elementos */
+    justify-content: center; 
+    align-items: center; 
+    padding: 0; 
+    width: 100%; 
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
 }
 
 nav a {
-    color: #d9dde0; /* Cor do texto dos links */
+    color: #d9dde0; 
     text-decoration: none;
-    font-size: 18px; /* Aumentar o tamanho da fonte */
-    position: relative; /* Para o efeito do sublinhado */
+    font-size: 18px; 
+    position: relative; 
 }
 nav a:hover {
-    color: #a8d0e6; /* Cor diferente ao passar o mouse */
+    color: #a8d0e6; 
 }
 
 nav a::after {
@@ -134,58 +132,59 @@ nav a::after {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #a8d0e6; /* Cor do sublinhado */
-    bottom: -5px; /* Distância do sublinhado em relação ao texto */
+    background-color: #a8d0e6; 
+    bottom: -5px; 
     left: 0;
-    transform: scaleX(0); /* Começar escondido */
-    transition: transform 0.3s ease; /* Animação suave */
+    transform: scaleX(0); 
+    transition: transform 0.3s ease; 
 }
 
 nav a:hover::after {
-    transform: scaleX(1); /* Revelar sublinhado ao passar o mouse */
+    transform: scaleX(1); 
 }
 
 nav {
     display: flex;
-    gap: 30px; /* Espaçamento consistente entre os links */
+    gap: 30px; 
 }
 
 /* Estilos dos projetos */
 #info-projetos {
-    display: flex; /* Usar flexbox */
-    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se não houver espaço suficiente */
-    justify-content: center; /* Centraliza os itens horizontalmente */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
     padding: 20px;
-    max-width: 1200px; /* Limitar a largura máxima para telas grandes */
-    margin: 0 auto; /* Centraliza a seção no corpo */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 #info-projetos h2 {
-    width: 100%; /* Faz com que o título ocupe toda a largura da seção */
-    text-align: center; /* Centraliza o texto do título */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .detalhesproj {
     background-color: #a8d0e6;
-    width: 30%; /* Definir a largura dos projetos para que vários caibam lado a lado */
+    width: 30%; 
     padding: 25px;
-    margin: 10px; /* Adicionei uma margem para espaçamento entre as caixas */
+    margin: 10px; 
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative; /* Necessário para o link ocupar toda a área da caixa */
+    position: relative; 
+    cursor: pointer;
 }
 
 .project-link {
-    display: block; /* Faz o link ocupar toda a área da div */
-    height: 100%; /* Certifica que o link preencha a altura total da caixa */
-    color: inherit; /* Mantém a cor do texto dentro do link */
-    text-decoration: none; /* Remove o sublinhado do link */
+    display: block; 
+    height: 100%; 
+    color: inherit; 
+    text-decoration: none; 
 }
 
 .project-link:hover {
-    color: #1e2a38; /* Cor do texto ao passar o mouse */
+    color: #1e2a38; 
 }
 
 
@@ -210,3 +209,22 @@ nav {
     margin: 0;
     padding: 0;
 }
+
+.project-image-container {
+    padding-top: 10px;
+    overflow: hidden;
+    height: 0; 
+    transition: height 0.5s ease; 
+  }
+  
+  .project-image-container.expanded {
+    height: 180px; 
+  }
+  
+  .project-image {
+    border-radius: 3px;
+    width: 100%; 
+    height: auto;
+    display: block;
+  }
+  
